@@ -1,0 +1,25 @@
+{
+    "name": "casdr/laravel-moneybird",
+    "homepage": "https://github.com/casdr/laravel-moneybird",
+    "description": "Moneybird package for Laravel based on Picq'ers client",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "moneybird"
+    ],
+    "authors": [
+        {
+            "name": "Cas de Reuver",
+            "email": "cdreuver@blalabs.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "picqer/moneybird-php-client": "^0.12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Casdr\\Moneybird\\": "src"
+        }
+    }
+}
