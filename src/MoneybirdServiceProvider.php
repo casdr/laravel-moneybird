@@ -11,13 +11,13 @@ class MoneybirdServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/moneybird.php' => config_path('moneybird.php')
+            __DIR__.'/../config/moneybird.php' => config_path('moneybird.php')
         ], 'config');
     }
 
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/config/moneybird.php', 'moneybird');
+        $this->mergeConfigFrom(__DIR__.'/../config/moneybird.php', 'moneybird');
 
         $this->app->bind('moneybird', function ($app) {
             $connection = new Connection();
