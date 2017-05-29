@@ -72,5 +72,5 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [ico-downloads]: https://img.shields.io/packagist/dt/casdr/laravel-moneybird.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/casdr/laravel-moneybird
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
+[link-downloads]: https://packagist.org/packages/casdr/laravel-moneybird/stats
 [link-author]: https://github.com/casdr
