@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "picqer/moneybird-php-client": "^0.12.0"
+        "picqer/moneybird-php-client": "^0.15.0"
     },
     "autoload": {
         "psr-4": {
