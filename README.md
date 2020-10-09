@@ -14,7 +14,11 @@ Via Composer
 $ composer require casdr/laravel-moneybird
 ```
 
-Add the ServiceProvider and the Facade to your `config/app.php`:
+Laravel uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
+
+### Laravel without auto-discovery:
+
+If you don't use auto-discovery, add the ServiceProvider and the Facade to your `config/app.php`:
 
 ```php
 'providers' => [
@@ -48,7 +52,7 @@ return [
 
 ## Usage
 
-``` php 
+``` php
 $contact = Moneybird::contact();
 
 $contact->company_name = 'BlaLabs';
