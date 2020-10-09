@@ -21,5 +21,15 @@
         "psr-4": {
             "Casdr\\Moneybird\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Casdr\\Moneybird\\MoneybirdServiceProvider"
+            ],
+            "aliases": {
+                "Moneybird": "Casdr\\Moneybird\\MoneybirdFacade"
+            }
+        }
     }
 }
